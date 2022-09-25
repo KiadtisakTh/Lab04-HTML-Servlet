@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>จักรยานราชันย์</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="addNewBike">
+            ชื่อ: <input type="text" name="BikeName"><br/>
+            ประเภท: <Select name="BikeType" id="BikeType">
+                <Option value="จักรยานเสือหมอบ">จักรยานเสือหมอบ</option>
+                <Option value="จักรยานฟิกเกียร์">จักรยานฟิกเกียร์</option>
+                <Option value="จักรยานเสือภูเขา">จักรยานเสือภูเขา</option>
+                <Option value="จักรยานไฮบริด">จักรยานไฮบริด</option>
+                <Option value="จักรยานไฟฟ้า">จักรยานไฟฟ้า</option>
+                </Select><br/>
+            ส่วนเสริม:<br/>
+            <input type="Checkbox" id="addition" name="addition" value="ขวดน้ำ และ เป้น้ำจักรยาน">ขวดน้ำ และ เป้น้ำจักรยาน<br/>
+            <input type="Checkbox" id="addition" name="addition" value="ไฟจักรยานและอุปกรณ์เพื่อความปลอดภัย">ไฟจักรยานและอุปกรณ์เพื่อความปลอดภัย<br/>
+            <input type="Checkbox" id="addition" name="addition" value="ชุดปะยางฉุกเฉิน และ ที่สูบลมแบบพกพา">ชุดปะยางฉุกเฉิน และ ที่สูบลมแบบพกพา<br/>
+            <input type="Checkbox" id="addition" name="addition" value="ไมล์จักรยาน">ไมล์จักรยาน<br/>
+            ยาง:<br/>
+            <input type="radio" id="rubber1" name="hotLevel" value="ยางตัน">
+            <label for="hotLevel1">ยางตัน</label><br>
+           <input type="radio" id="hotLevel2" name="hotLevel" value="ยางลมเล็ก">
+            <label for="hotLevel2">ยางลมเล็ก</label><br>
+            <input type="radio" id="hotLevel3" name="hotLevel" value="ยางลมใหญ่">
+            <label for="hotLevel3">ยางลมใหญ่</label><br>
+            ราคา:<br/>
+            <input type="Text" name="BikePrice"><br>
+            <input type="submit" value="ตกลง">
+
+        </form>
+    </body>
+</html>
